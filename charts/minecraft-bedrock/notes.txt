@@ -1,0 +1,8 @@
+# Install a minecraft server
+helm install survival-villages-01 -f survival-villages-01.yaml .
+
+# Get pod name
+kubectl get pods
+
+# Expose the port
+kubectl port-forward survival-villages-01-minecraft-bedrock-74555f978-fmfzj 25565:25565
