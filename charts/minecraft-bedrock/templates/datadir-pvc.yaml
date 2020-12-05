@@ -16,7 +16,8 @@ metadata:
   {{- end }}
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
+  volumeName: minecraft
   resources:
     requests:
       storage: {{ .Values.persistence.dataDir.Size | quote }}
