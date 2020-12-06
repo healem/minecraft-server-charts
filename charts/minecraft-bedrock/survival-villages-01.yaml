@@ -8,7 +8,7 @@ imagePullSecret: ""
 ##
 resources:
   requests:
-    memory: 512Mi
+    memory: 1024Mi
     cpu: 500m
 
 # upgrade strategy type (e.g. Recreate or RollingUpdate)
@@ -59,7 +59,7 @@ minecraftServer:
   # The world is ticked this many chunks away from any player.
   tickDistance: 4
   # Max view distance (in chunks).
-  viewDistance: 10
+  viewDistance: 32
   # The "level-name" value is used as the world name and its folder name. The player may also copy their saved game folder here, and change the name to the same as that folder's to load it instead.
   levelName: villages-01
   # Define this if you want a specific map generation seed.
