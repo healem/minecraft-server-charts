@@ -28,7 +28,7 @@ spec:
   ports:
   - name: minecraft
     port: 19132
-    targetPort: 19132
+    targetPort: minecraft
     {{- if .Values.minecraftServer.nodePort }}
     nodePort: {{ .Values.minecraftServer.nodePort }}
     {{- end }}

@@ -83,9 +83,9 @@ minecraftServer:
   # Cheat like commands can be used.
   cheats: false
   # type of kubernetes service to use
-  serviceType: ClusterIP
+  serviceType: NodePort
   ## Set the port used if the serviceType is NodePort
-  # nodePort:
+  nodePort: 19132
   loadBalancerIP:
   # loadBalancerSourceRanges: []
   ## Set the externalTrafficPolicy in the Service to either Cluster or Local
