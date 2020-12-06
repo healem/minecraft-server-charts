@@ -85,7 +85,7 @@ minecraftServer:
   # type of kubernetes service to use
   serviceType: NodePort
   ## Set the port used if the serviceType is NodePort
-  nodePort: 19132
+  nodePort: 30000
   loadBalancerIP:
   # loadBalancerSourceRanges: []
   ## Set the externalTrafficPolicy in the Service to either Cluster or Local
