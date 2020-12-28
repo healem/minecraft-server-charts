@@ -67,7 +67,7 @@ minecraftServer:
   # One of: creative, survival, adventure, spectator
   gameMode: survival
   # Permission level for new players joining for the first time (visitor, member, operator)
-  defaultPermission: member
+  defaultPermission: operator
   # After a player has idled for this many minutes they get kicked.
   playerIdleTimeout: 30
   # One of: DEFAULT, FLAT, LEGACY
@@ -81,7 +81,7 @@ minecraftServer:
   # Maximum number of threads the server tries to use. If set to 0 or removed then it uses as many as possible.
   maxThreads: 8
   # Cheat like commands can be used.
-  cheats: false
+  cheats: true
   # type of kubernetes service to use
   serviceType: NodePort
   ## Set the port used if the serviceType is NodePort

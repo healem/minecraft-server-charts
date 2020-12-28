@@ -18,6 +18,9 @@ kubectl get services survival-villages-01-minecraft-bedrock
 # Expose the port
 # kubectl port-forward survival-villages-01-minecraft-bedrock-74555f978-fmfzj 25565:25565
 
+# Apply the nightly-restart policy
+kubectl apply -f nightly-restart.yaml
+
 # Reset
 helm delete survival-villages-01
 # Go into Lens and delete "minecraft" Persistent Volume
