@@ -65,7 +65,7 @@ minecraftServer:
   # Define this if you want a specific map generation seed.
   levelSeed: -850418298
   # One of: creative, survival, adventure, spectator
-  gameMode: survival
+  gameMode: Survival
   # Permission level for new players joining for the first time (visitor, member, operator)
   defaultPermission: operator
   # After a player has idled for this many minutes they get kicked.
