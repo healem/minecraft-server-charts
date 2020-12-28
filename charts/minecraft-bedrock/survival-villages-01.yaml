@@ -61,11 +61,11 @@ minecraftServer:
   # Max view distance (in chunks).
   viewDistance: 32
   # The "level-name" value is used as the world name and its folder name. The player may also copy their saved game folder here, and change the name to the same as that folder's to load it instead.
-  levelName: villages-01
+  levelName: Survival
   # Define this if you want a specific map generation seed.
   levelSeed: -850418298
   # One of: creative, survival, adventure, spectator
-  gameMode: Survival
+  gameMode: survival
   # Permission level for new players joining for the first time (visitor, member, operator)
   defaultPermission: operator
   # After a player has idled for this many minutes they get kicked.
