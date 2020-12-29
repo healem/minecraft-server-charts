@@ -21,6 +21,9 @@ kubectl get services survival-villages-01-minecraft-bedrock
 # Apply the nightly-restart policy
 kubectl apply -f nightly-restart.yaml
 
+# Upgrade the helm chart
+helm upgrade survival-villages-01 -f survival-villages-01.yaml .
+
 # Reset
 helm delete survival-villages-01
 # Go into Lens and delete "minecraft" Persistent Volume
